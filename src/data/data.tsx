@@ -266,44 +266,60 @@ export const education: TimelineItem[] = [
     date: 'Graduated 2014 | Cumulative GPA: 4.0',
     location: 'Boston University',
     title: 'Master of Science - Computer Information Systems IT Security',
-    content: <div>
-      <ul>
-        <li>Web Application Development – core competencies in web application technologies to create dynamic web applications with relational databases, develop skills in both front- and back-end coding</li>
-        <li>Network Security – advanced network security issues and solutions, services, access controls, vulnerabilities, threats, risks, network architectures, attacks, network security capabilities and mechanisms</li>
-        <li>Enterprise Information Security – security in computer systems, networks, applications, memory protection, access control and authentication, file system security, backup and recovery management, intrusion and virus protection mechanisms, application level protections, cryptography</li>
-        <li>IT Security Policies and Procedures – development and implementation of security policies, risk management plans, standards and procedures on infrastructure, systems, networks, data, operations and user access</li>
-        <li>Information Systems Analysis – analysis and design, object oriented methods, requirements analysis, UML, software system architecture, design, implementation and management, project control, systems-level testing</li>
-      </ul>
-    </div>,
-  },
-  {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    content: (
+      <p>
+        • Web Application Development – core competencies in web application technologies to create dynamic web applications with relational databases, develop skills in both front- and back-end coding<br />
+        • Network Security – advanced network security issues and solutions, services, access controls, vulnerabilities, threats, risks, network architectures, attacks, network security capabilities and mechanisms<br />
+        • Enterprise Information Security – security in computer systems, networks, applications, memory protection, access control and authentication, file system security, backup and recovery management, intrusion and virus protection mechanisms, application level protections, cryptography<br />
+        • IT Security Policies and Procedures – development and implementation of security policies, risk management plans, standards and procedures on infrastructure, systems, networks, data, operations and user access<br />
+        • Information Systems Analysis – analysis and design, object oriented methods, requirements analysis, UML, software system architecture, design, implementation and management, project control, systems-level testing<br />
+      </p>
+    ),
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'April 2019 - Present',
+    location: 'Harvard University',
+    title: 'Senior Software Engineer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        • Full-Stack Application Development - Design and build large-scale, performant, secure,
+        and accessible applications for Harvard Library, the largest academic library in the world<br />
+        • CI/CD - Automate CI/CD workflows; write playbooks to manage configurations and
+        encrypt secrets (Ansible), orchestrate deployments (Docker Swarm and Kubernetes)<br />
+        • Security - Write all software with secure coding practices such as data encryption, session
+        management, network security, input validation, parameterization, event logging, access
+        controls, and more; build and integrate authentication and authorization services; scan
+        applications and remediate security vulnerabilities<br />
+        • Automated Testing - Write unit and integration tests with coverage analysis (Jest, PyTest)<br />
+        • Architecture Design - Create diagrams and technical documentation to design complex
+        systems based on software engineering architecture principles and best practices;<br />
+        collaborate with various stakeholders to collect functional requirements, integrations,
+        dependencies, and non-functional requirements for performance, security, and availability<br />
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'March 2015 - April 2019',
+    location: 'Broad Institute of Harvard and MIT',
+    title: 'Software Engineer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        • Full Stack Application Development - Develop custom web applications including front-end,
+        backend, databases, authentication, version control, deployment, monitoring, security
+        controls, upgrades, and support<br />
+        • Systems Integration - Integrate systems using Web Service APIs (REST/SOAP)<br />
+        • Systems Administration - Linux and Windows server administration<br />
+        • QA Testing - Create QA test matrix, write automated testing scripts<br />
+        • Development Operations - Automate build and deployment using Docker and Jenkins<br />
+        • Software Development Lifecycle - Optimize and standardize SDLC for custom software
+        applications hosted both on-premises and in the cloud<br />
+        • IT Automation - Automate and standardize IT administration tasks with scripts and scheduled jobs<br />
+        • IT Security - Analyze systems and applications for security vulnerabilities, implement
+        controls and patches, adhere to security best practices, ensure compliance with regulations<br />
+        • ServiceNow SaaS - Develop custom applications in the ServiceNow platform<br />
       </p>
     ),
   },
