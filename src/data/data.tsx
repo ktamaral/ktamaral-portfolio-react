@@ -76,6 +76,8 @@ export const heroData: Hero = {
         I'm a <strong className="text-stone-100">Full-Stack Software Engineer</strong>, currently working
         at <strong className="text-stone-100">Harvard University Library Technology Serivces</strong> building modern,
         accessible, and scalable multimedia services for Harvard's vast collection of digital assets.
+        I have a master's degree in <strong className="text-stone-100">Computer Information Systems</strong> with a 
+        concentration in IT Security from Boston University, and over eight years of experience working as a software engineer.
       </p>
     </>
   ),
@@ -102,8 +104,8 @@ export const aboutData: About = {
   description: ``,
   aboutItems: [
     {label: 'Location', text: 'Boston, MA', Icon: MapIcon},
-    {label: 'Age', text: '37', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'American', Icon: FlagIcon},
+    /*{label: 'Age', text: '37', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'American', Icon: FlagIcon},*/
     {label: 'Interests', text: 'Hiking, Traveling, Yoga', Icon: SparklesIcon},
     {label: 'Study', text: 'Boston University', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Harvard University', Icon: BuildingOffice2Icon},
@@ -257,14 +259,22 @@ export const portfolioItems: PortfolioItem[] = [
 ];
 
 /**
- * Resume section -- TODO: Standardize resume contact format or offer MDX
+ * Resume section
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'Graduated 2014 | Cumulative GPA: 4.0',
+    location: 'Boston University',
+    title: 'Master of Science - Computer Information Systems IT Security',
+    content: <div>
+      <ul>
+        <li>Web Application Development – core competencies in web application technologies to create dynamic web applications with relational databases, develop skills in both front- and back-end coding</li>
+        <li>Network Security – advanced network security issues and solutions, services, access controls, vulnerabilities, threats, risks, network architectures, attacks, network security capabilities and mechanisms</li>
+        <li>Enterprise Information Security – security in computer systems, networks, applications, memory protection, access control and authentication, file system security, backup and recovery management, intrusion and virus protection mechanisms, application level protections, cryptography</li>
+        <li>IT Security Policies and Procedures – development and implementation of security policies, risk management plans, standards and procedures on infrastructure, systems, networks, data, operations and user access</li>
+        <li>Information Systems Analysis – analysis and design, object oriented methods, requirements analysis, UML, software system architecture, design, implementation and management, project control, systems-level testing</li>
+      </ul>
+    </div>,
   },
   {
     date: 'March 2003',
