@@ -1,10 +1,11 @@
 import {FC, memo} from 'react';
 
-import {education, experience, SectionId, skills} from '../../../data/data';
+import {education, experience, SectionId, skills, skillCards} from '../../../data/data';
 import Section from '../../Layout/Section';
 import ResumeSection from './ResumeSection';
 import {SkillGroup} from './Skills';
 import TimelineItem from './TimelineItem';
+import SkillCard from './SkillCard';
 
 const Resume: FC = memo(() => {
   return (
@@ -28,9 +29,15 @@ const Resume: FC = memo(() => {
             ))}
           </div>
         </ResumeSection>
-      </div>
-      <div>
-        Cards go here
+        <ResumeSection title="SkillCards">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {skillCards.map(skillCard => (
+              <SkillCard
+                skillCard={skillCard}
+              />
+            ))}
+          </div>
+        </ResumeSection>
       </div>
     </Section>
   );

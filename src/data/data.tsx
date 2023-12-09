@@ -38,7 +38,7 @@ import {
   Social,
   TestimonialSection,
   TimelineItem,
-  Card,
+  SkillCard,
 } from './dataDef';
 
 /**
@@ -393,24 +393,27 @@ export const socialLinks: Social[] = [
 ];
 
 /**
- * Cards
+ * Skill Cards
  */
-export const cards: Card[] = [
+export const skillCards: SkillCard[] = [
   {
     title: 'Projects',
     description: 'Check out my projects',
+    image: porfolioImage1,
     //href: `#${SectionId.Portfolio}`,
     Icon: ArrowDownTrayIcon,
   },
   {
     title: 'Resume',
     description: 'Check out my resume',
+    image: porfolioImage2,
     //href: '/assets/resume.pdf',
     Icon: ArrowDownTrayIcon,
   },
   {
     title: 'Contact',
     description: 'Contact me',
+    image: porfolioImage3,
     //href: `#${SectionId.Contact}`,
     Icon: ArrowDownTrayIcon,
   },

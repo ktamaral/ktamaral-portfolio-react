@@ -152,7 +152,7 @@ export interface Social {
 /**
  * Cards
  */
-export interface Card {
+export interface SkillCard {
   id?: string;
   title: string;
   description?: string;
