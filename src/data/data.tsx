@@ -286,16 +286,16 @@ export const experience: TimelineItem[] = [
     title: 'Senior Software Engineer',
     content: (
       <p>
-        • Full-Stack Application Development - Design and build large-scale, performant, secure,
+        <strong className="text-black-100">Full-Stack Software Engineering</strong> - Design and build large-scale, performant, secure,
         and accessible applications for Harvard Library, the largest academic library in the world<br />
-        • CI/CD - Automate CI/CD workflows; write playbooks to manage configurations and
+        <strong className="text-black-100">CI/CD</strong> - Automate CI/CD workflows; write playbooks to manage configurations and
         encrypt secrets (Ansible), orchestrate deployments (Docker Swarm and Kubernetes)<br />
-        • Security - Write all software with secure coding practices such as data encryption, session
+        <strong className="text-black-100">Security</strong> - Write all software with secure coding practices such as data encryption, session
         management, network security, input validation, parameterization, event logging, access
         controls, and more; build and integrate authentication and authorization services; scan
         applications and remediate security vulnerabilities<br />
-        • Automated Testing - Write unit and integration tests with coverage analysis (Jest, PyTest)<br />
-        • Architecture Design - Create diagrams and technical documentation to design complex
+        <strong className="text-black-100">Automated Testing</strong> - Write unit and integration tests with coverage analysis (Jest, PyTest)<br />
+        <strong className="text-black-100">Architecture Design</strong> - Create diagrams and technical documentation to design complex
         systems based on software engineering architecture principles and best practices;<br />
         collaborate with various stakeholders to collect functional requirements, integrations,
         dependencies, and non-functional requirements for performance, security, and availability<br />
@@ -308,19 +308,19 @@ export const experience: TimelineItem[] = [
     title: 'Software Engineer',
     content: (
       <p>
-        • Full Stack Application Development - Develop custom web applications including front-end,
+        <strong className="text-black-100">Full-Stack Software Engineering</strong> - Develop custom web applications including front-end,
         backend, databases, authentication, version control, deployment, monitoring, security
         controls, upgrades, and support<br />
-        • Systems Integration - Integrate systems using Web Service APIs (REST/SOAP)<br />
-        • Systems Administration - Linux and Windows server administration<br />
-        • QA Testing - Create QA test matrix, write automated testing scripts<br />
-        • Development Operations - Automate build and deployment using Docker and Jenkins<br />
-        • Software Development Lifecycle - Optimize and standardize SDLC for custom software
+        <strong className="text-black-100">Systems Integration</strong> - Integrate systems using Web Service APIs (REST/SOAP)<br />
+        <strong className="text-black-100">Systems Administration</strong> - Linux and Windows server administration<br />
+        <strong className="text-black-100">QA Testing</strong> - Create QA test matrix, write automated testing scripts<br />
+        <strong className="text-black-100">Development Operations</strong> - Automate build and deployment using Docker and Jenkins<br />
+        <strong className="text-black-100">Software Development Lifecycle</strong> - Optimize and standardize SDLC for custom software
         applications hosted both on-premises and in the cloud<br />
-        • IT Automation - Automate and standardize IT administration tasks with scripts and scheduled jobs<br />
-        • IT Security - Analyze systems and applications for security vulnerabilities, implement
+        <strong className="text-black-100">IT Automation</strong> - Automate and standardize IT administration tasks with scripts and scheduled jobs<br />
+        <strong className="text-black-100">IT Security</strong> - Analyze systems and applications for security vulnerabilities, implement
         controls and patches, adhere to security best practices, ensure compliance with regulations<br />
-        • ServiceNow SaaS - Develop custom applications in the ServiceNow platform<br />
+        <strong className="text-black-100">ServiceNow SaaS</strong> - Develop custom applications in the ServiceNow platform<br />
       </p>
     ),
   },
