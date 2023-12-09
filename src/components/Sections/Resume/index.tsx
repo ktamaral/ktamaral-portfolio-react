@@ -29,6 +29,9 @@ const Resume: FC = memo(() => {
           </div>
         </ResumeSection>
       </div>
+      <div>
+        Cards go here
+      </div>
     </Section>
   );
 });

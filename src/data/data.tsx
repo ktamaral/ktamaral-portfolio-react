@@ -2,8 +2,8 @@ import {
   AcademicCapIcon,
   ArrowDownTrayIcon,
   BuildingOffice2Icon,
-  CalendarIcon,
-  FlagIcon,
+  /*CalendarIcon,
+  FlagIcon,*/
   MapIcon,
   SparklesIcon,
 } from '@heroicons/react/24/outline';
@@ -38,6 +38,7 @@ import {
   Social,
   TestimonialSection,
   TimelineItem,
+  Card,
 } from './dataDef';
 
 /**
@@ -389,4 +390,28 @@ export const socialLinks: Social[] = [
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/katieamaral/'},
   {label: 'Instagram', Icon: InstagramIcon, href: ''},
   {label: 'Twitter', Icon: TwitterIcon, href: ''},
+];
+
+/**
+ * Cards
+ */
+export const cards: Card[] = [
+  {
+    title: 'Projects',
+    description: 'Check out my projects',
+    //href: `#${SectionId.Portfolio}`,
+    Icon: ArrowDownTrayIcon,
+  },
+  {
+    title: 'Resume',
+    description: 'Check out my resume',
+    //href: '/assets/resume.pdf',
+    Icon: ArrowDownTrayIcon,
+  },
+  {
+    title: 'Contact',
+    description: 'Contact me',
+    //href: `#${SectionId.Contact}`,
+    Icon: ArrowDownTrayIcon,
+  },
 ];

@@ -148,3 +148,15 @@ export interface Social {
   Icon: FC<IconProps>;
   href: string;
 }
+
+/**
+ * Cards
+ */
+export interface Card {
+  id?: string;
+  title: string;
+  description?: string;
+  image?: string;
+  href?: string;
+  Icon?: FC<IconProps>;
+}
