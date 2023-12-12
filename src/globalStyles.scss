@@ -2,8 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@font-face {
+  font-family: 'Lato';
+  src: url('./styles/fonts/Lato-Regular.tff') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('./styles/fonts/NotoSans-Regular.tff') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 @layer utilities {
   /* Chrome, Safari and Opera */
@@ -39,7 +50,7 @@ body {
   position: relative;
   width: 100%;
   color: #444444;
-  font-family: 'Lato', 'Noto Sans', sans-serif;
+  font-family: 'Lato', 'Noto Sans', sans-serif, 'Helvetica Neue', Arial;
   /*font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif;*/
   background-color: #fafafa;
 }
