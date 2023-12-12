@@ -59,3 +59,47 @@ export default Skills;
   list-style-type: circle;
   padding-left: 20px;
 }
+
+Cards
+import { useState } from 'react';
+
+function Card({ image, title, text }) {
+  return (
+    <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
+      <img src={image} alt={title} className="w-full"/>
+      <div className="p-6">
+        <h2 className="text-xl font-medium text-gray-900">{title}</h2>
+        <p className="mt-2 text-sm text-gray-500">{text}</p>
+      </div>
+    </div>
+  );
+}
+
+export default function Cards() {
+  const [cards] = useState([
+    {
+      image: '/image1.jpg', 
+      title: 'Card 1',
+      text: 'Lorem ipsum dolor sit amet'
+    },
+    {
+      image: '/image2.jpg',
+      title: 'Card 2',  
+      text: 'Consectetur adipiscing elit'
+    },
+    // etc
+  ]);
+
+  return (
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      {cards.map(card => (
+        <Card 
+          key={card.title}
+          image={card.image}
+          title={card.title} 
+          text={card.text}
+        />
+      ))}
+    </div>
+  );
+}
