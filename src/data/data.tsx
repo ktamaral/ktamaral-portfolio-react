@@ -9,10 +9,10 @@ import {
 } from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
+//import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
+//import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/iStock-1325876343-1920x1280.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -360,19 +360,19 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: '',
-      href: 'mailto:',
+      text: 'amaral.katie@gmail.com',
+      href: 'mailto:amaral.katie@gmail.com',
     },
     {
       type: ContactType.Location,
       text: 'Boston, MA, USA',
       href: 'https://www.google.com/maps/place/Boston,+MA/@42.3143203,-71.0528557,12z',
     },
-    {
+    /*{
       type: ContactType.Instagram,
       text: '@',
       href: '',
-    },
+    },*/
     {
       type: ContactType.Github,
       text: 'ktamaral',
@@ -386,10 +386,10 @@ export const contact: ContactSection = {
  */
 export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/ktamaral'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: ''},
+  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/2183592/ktamaral'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/katieamaral/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: ''},
-  {label: 'Twitter', Icon: TwitterIcon, href: ''},
+  /*{label: 'Instagram', Icon: InstagramIcon, href: ''},
+  {label: 'Twitter', Icon: TwitterIcon, href: ''},*/
 ];
 
 /**

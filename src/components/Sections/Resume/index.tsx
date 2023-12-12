@@ -31,8 +31,9 @@ const Resume: FC = memo(() => {
         </ResumeSection>
         <ResumeSection title="SkillCards">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {skillCards.map(skillCard => (
+            {skillCards.map((skillCard, index) => (
               <SkillCard
+                key={`${skillCard.title}-${index}`}
                 skillCard={skillCard}
               />
             ))}
