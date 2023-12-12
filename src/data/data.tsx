@@ -6,6 +6,7 @@ import {
   FlagIcon,*/
   MapIcon,
   SparklesIcon,
+  EnvelopeIcon,
 } from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
@@ -75,25 +76,25 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a <strong className="text-stone-100">Full-Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Harvard University Library Technology Serivces</strong> building modern,
+        at <strong className="text-stone-100">Harvard University Library Technology Services</strong> building modern,
         accessible, and scalable multimedia services for Harvard's vast collection of digital assets.
         I have a master's degree in <strong className="text-stone-100">Computer Information Systems</strong> with a 
-        concentration in IT Security from Boston University, and over eight years of experience working as a software engineer.
+        concentration in <strong className="text-stone-100">IT Security</strong> from <strong className="text-stone-100">Boston University</strong>, and over eight years of experience working as a software engineer.
       </p>
     </>
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: '/AmaralKatie_Resume_2023.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
     },
-    {
+    /*{
       href: `#${SectionId.Contact}`,
       text: 'Contact',
       primary: false,
-    },
+    },*/
   ],
 };
 
@@ -108,7 +109,7 @@ export const aboutData: About = {
     /*{label: 'Age', text: '37', Icon: CalendarIcon},
     {label: 'Nationality', text: 'American', Icon: FlagIcon},*/
     {label: 'Interests', text: 'Hiking, Traveling, Yoga', Icon: SparklesIcon},
-    {label: 'Study', text: 'Boston University', Icon: AcademicCapIcon},
+    {label: 'Study', text: 'Masters in Computer Information Systems', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Harvard University', Icon: BuildingOffice2Icon},
   ],
 };
@@ -269,11 +270,11 @@ export const education: TimelineItem[] = [
     title: 'Master of Science - Computer Information Systems IT Security',
     content: (
       <p>
-        • Web Application Development – build dynamic web applications with front and backend langauges and frameworks and relational databases<br />
-        • Network Security – advanced network security issues and solutions, services, access controls, vulnerabilities, threats, risks, network architectures, attacks, network security capabilities and mechanisms<br />
-        • Enterprise Information Security – security in computer systems, networks, applications, memory protection, access control and authentication, file system security, backup and recovery management, intrusion and virus protection mechanisms, application level protections, cryptography<br />
-        • IT Security Policies and Procedures – development and implementation of security policies, risk management plans, standards and procedures on infrastructure, systems, networks, data, operations and user access<br />
-        • Information Systems Analysis – analysis and design, object oriented methods, requirements analysis, UML, software system architecture, design, implementation and management, project control, systems-level testing<br />
+        • Web Application Development – Web application development with front and backend langauges and frameworks and relational databases<br />
+        • Network Security – Advanced network security issues and solutions, services, access controls, vulnerabilities, threats, risks, network architectures, attacks, network security capabilities and mechanisms<br />
+        • Enterprise Information Security – Security in computer systems, networks, applications, memory protection, access control and authentication, file system security, backup and recovery management, intrusion and virus protection mechanisms, application level protections, cryptography<br />
+        • IT Security Policies and Procedures – Development and implementation of security policies, risk management plans, standards and procedures on infrastructure, systems, networks, data, operations and user access<br />
+        • Information Systems Analysis – Analysis and design, object oriented methods, requirements analysis, UML, software system architecture, implementation, management, and testing<br />
       </p>
     ),
   },
@@ -286,15 +287,19 @@ export const experience: TimelineItem[] = [
     title: 'Senior Software Engineer',
     content: (
       <p>
-        <strong className="text-black-100">Full-Stack Software Engineering</strong> - Design and build large-scale, performant, secure,
-        and accessible applications for Harvard Library, the largest academic library in the world<br />
-        <strong className="text-black-100">CI/CD</strong> - Automate CI/CD workflows; write playbooks to manage configurations and
-        encrypt secrets (Ansible), orchestrate deployments (Docker Swarm and Kubernetes)<br />
+        <strong className="text-black-100">Artificial Intelligence</strong> - Leverage generative AI models to modernize library discovery by
+        enabling natural language interaction with catalog services (LangChain, Anthropic, OpenAI)<br />
+        <strong className="text-black-100">Front-End Development</strong> - Design and build responsive, accessible, user-friendly interfaces
+        in a variety of languages and frameworks (React, Angular)<br />
+        <strong className="text-black-100">Back-End Development</strong> - Design and build large-scale, performant, and secure backend services
+        interconnected with REST APIs (NodeJS, FastAPI) and message queues<br />
+        <strong className="text-black-100">CI/CD</strong> - Automate CI/CD workflows, orchestrate deployments, manage configurations
+        and encrypt secrets (Docker, Kubernetes, ArgoCD, Ansible, Jenkins)<br />
         <strong className="text-black-100">Security</strong> - Write all software with secure coding practices such as data encryption, session
         management, network security, input validation, parameterization, event logging, access
         controls, and more; build and integrate authentication and authorization services; scan
         applications and remediate security vulnerabilities<br />
-        <strong className="text-black-100">Automated Testing</strong> - Write unit and integration tests with coverage analysis (Jest, PyTest)<br />
+        <strong className="text-black-100">Automated Testing</strong> - Write unit and integration tests with coverage analysis and integrate into CI/CD pipeline (Jest, PyTest)<br />
         <strong className="text-black-100">Architecture Design</strong> - Create diagrams and technical documentation to design complex
         systems based on software engineering architecture principles and best practices;<br />
         collaborate with various stakeholders to collect functional requirements, integrations,
@@ -309,15 +314,14 @@ export const experience: TimelineItem[] = [
     content: (
       <p>
         <strong className="text-black-100">Full-Stack Software Engineering</strong> - Develop custom web applications including front-end,
-        backend, databases, authenticationa, version control, deployment, monitoring, security
-        controls, upgrades, and support<br />
+        backend, databases, authenticationa, version control, deployment, monitoring, security controls, upgrades, and support<br />
         <strong className="text-black-100">Systems Integration</strong> - Integrate systems using Web Service APIs (REST/SOAP)<br />
         <strong className="text-black-100">Systems Administration</strong> - Linux and Windows server administration<br />
         <strong className="text-black-100">QA Testing</strong> - Create QA test matrix, write automated testing scripts<br />
         <strong className="text-black-100">Development Operations</strong> - Automate build and deployment using Docker and Jenkins<br />
         <strong className="text-black-100">Software Development Lifecycle</strong> - Optimize and standardize SDLC for custom software
         applications hosted both on-premises and in the cloud<br />
-        <strong className="text-black-100">IT Automation</strong> - Automate and standardize IT administration tasks with scripts and scheduled jobs<br />
+        <strong className="text-black-100">IT Automation</strong> - Automate IT administration tasks with scripts and scheduled jobs<br />
         <strong className="text-black-100">IT Security</strong> - Analyze systems and applications for security vulnerabilities, implement
         controls and patches, adhere to security best practices, ensure compliance with regulations<br />
         <strong className="text-black-100">ServiceNow SaaS</strong> - Develop custom applications in the ServiceNow platform<br />
@@ -388,6 +392,7 @@ export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/ktamaral'},
   {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/2183592/ktamaral'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/katieamaral/'},
+  {label: 'Email', Icon: EnvelopeIcon, href: 'mailto:amaral.katie@gmail.com'},
   /*{label: 'Instagram', Icon: InstagramIcon, href: ''},
   {label: 'Twitter', Icon: TwitterIcon, href: ''},*/
 ];
