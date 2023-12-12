@@ -288,18 +288,16 @@ export const experience: TimelineItem[] = [
     content: (
       <p>
         <strong className="text-black-100">Artificial Intelligence</strong> - Leverage generative AI models to modernize library discovery by
-        enabling natural language interaction with catalog services (LangChain, Anthropic, OpenAI)<br />
-        <strong className="text-black-100">Front-End Development</strong> - Design and build responsive, accessible, user-friendly interfaces
-        in a variety of languages and frameworks (React, Angular)<br />
-        <strong className="text-black-100">Back-End Development</strong> - Design and build large-scale, performant, and secure backend services
-        interconnected with REST APIs (NodeJS, FastAPI) and message queues<br />
-        <strong className="text-black-100">CI/CD</strong> - Automate CI/CD workflows, orchestrate deployments, manage configurations
-        and encrypt secrets (Docker, Kubernetes, ArgoCD, Ansible, Jenkins)<br />
+        enabling natural language interaction with catalog services<br />
+        <strong className="text-black-100">Front-End Development</strong> - Design responsive, accessible, user-friendly interfaces
+        meeting or exceeding standards for library UX and accessibility<br />
+        <strong className="text-black-100">Back-End Development</strong> - Build large-scale, performant, and secure backend services
+        interconnected with REST APIs and message queues to support a large volume of requests for mission-critical applications serving patrons around the world<br />
+        <strong className="text-black-100">CI/CD</strong> - Automate CI/CD workflows, orchestrate deployments, and manage configurations<br />
         <strong className="text-black-100">Security</strong> - Write all software with secure coding practices such as data encryption, session
-        management, network security, input validation, parameterization, event logging, access
-        controls, and more; build and integrate authentication and authorization services; scan
-        applications and remediate security vulnerabilities<br />
-        <strong className="text-black-100">Automated Testing</strong> - Write unit and integration tests with coverage analysis and integrate into CI/CD pipeline (Jest, PyTest)<br />
+        management, network security, input validation, parameterization, event logging, access controls, and more;
+        build and integrate authentication and authorization services; scan applications and remediate security vulnerabilities<br />
+        <strong className="text-black-100">Automated Testing</strong> - Write unit and integration tests with coverage analysis and integrate into CI/CD pipeline<br />
         <strong className="text-black-100">Architecture Design</strong> - Create diagrams and technical documentation to design complex
         systems based on software engineering architecture principles and best practices;<br />
         collaborate with various stakeholders to collect functional requirements, integrations,
@@ -313,18 +311,16 @@ export const experience: TimelineItem[] = [
     title: 'Software Engineer',
     content: (
       <p>
-        <strong className="text-black-100">Full-Stack Software Engineering</strong> - Develop custom web applications including front-end,
-        backend, databases, authenticationa, version control, deployment, monitoring, security controls, upgrades, and support<br />
-        <strong className="text-black-100">Systems Integration</strong> - Integrate systems using Web Service APIs (REST/SOAP)<br />
+        <strong className="text-black-100">Full-Stack Software Engineering</strong> - Designed and built custom web applications working in all levels of the tech stack including front-end, backend, databases,
+        authentication, version control, deployment, monitoring, security controls, upgrades, and support<br />
+        <strong className="text-black-100">Systems Integration</strong> - Integrated systems with web service APIs<br />
         <strong className="text-black-100">Systems Administration</strong> - Linux and Windows server administration<br />
-        <strong className="text-black-100">QA Testing</strong> - Create QA test matrix, write automated testing scripts<br />
-        <strong className="text-black-100">Development Operations</strong> - Automate build and deployment using Docker and Jenkins<br />
-        <strong className="text-black-100">Software Development Lifecycle</strong> - Optimize and standardize SDLC for custom software
-        applications hosted both on-premises and in the cloud<br />
-        <strong className="text-black-100">IT Automation</strong> - Automate IT administration tasks with scripts and scheduled jobs<br />
-        <strong className="text-black-100">IT Security</strong> - Analyze systems and applications for security vulnerabilities, implement
-        controls and patches, adhere to security best practices, ensure compliance with regulations<br />
-        <strong className="text-black-100">ServiceNow SaaS</strong> - Develop custom applications in the ServiceNow platform<br />
+        <strong className="text-black-100">QA Testing</strong> - Created QA test plans based on requirements, wrote automated testing scripts<br />
+        <strong className="text-black-100">CI/CD</strong> - Automated software build and deployment workflows<br />
+        <strong className="text-black-100">IT Automation</strong> - Automated IT tasks with scripts and scheduled jobs<br />
+        <strong className="text-black-100">IT Security</strong> - Analyzed systems for security vulnerabilities, implemented controls and patches,
+        adhered to security best practices, ensured compliance with regulations<br />
+        <strong className="text-black-100">ServiceNow SaaS</strong> - Developed custom applications in the ServiceNow platform<br />
       </p>
     ),
   },
