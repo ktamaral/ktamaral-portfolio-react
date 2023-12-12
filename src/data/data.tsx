@@ -9,10 +9,10 @@ import {
 } from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
+//import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
+//import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/iStock-1325876343-1920x1280.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -269,7 +269,7 @@ export const education: TimelineItem[] = [
     title: 'Master of Science - Computer Information Systems IT Security',
     content: (
       <p>
-        • Web Application Development – core competencies in web application technologies to create dynamic web applications with relational databases, develop skills in both front- and back-end coding<br />
+        • Web Application Development – build dynamic web applications with front and backend langauges and frameworks and relational databases<br />
         • Network Security – advanced network security issues and solutions, services, access controls, vulnerabilities, threats, risks, network architectures, attacks, network security capabilities and mechanisms<br />
         • Enterprise Information Security – security in computer systems, networks, applications, memory protection, access control and authentication, file system security, backup and recovery management, intrusion and virus protection mechanisms, application level protections, cryptography<br />
         • IT Security Policies and Procedures – development and implementation of security policies, risk management plans, standards and procedures on infrastructure, systems, networks, data, operations and user access<br />
@@ -360,19 +360,19 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: '',
-      href: 'mailto:',
+      text: 'amaral.katie@gmail.com',
+      href: 'mailto:amaral.katie@gmail.com',
     },
     {
       type: ContactType.Location,
       text: 'Boston, MA, USA',
       href: 'https://www.google.com/maps/place/Boston,+MA/@42.3143203,-71.0528557,12z',
     },
-    {
+    /*{
       type: ContactType.Instagram,
       text: '@',
       href: '',
-    },
+    },*/
     {
       type: ContactType.Github,
       text: 'ktamaral',
@@ -386,10 +386,10 @@ export const contact: ContactSection = {
  */
 export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/ktamaral'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: ''},
+  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/2183592/ktamaral'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/katieamaral/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: ''},
-  {label: 'Twitter', Icon: TwitterIcon, href: ''},
+  /*{label: 'Instagram', Icon: InstagramIcon, href: ''},
+  {label: 'Twitter', Icon: TwitterIcon, href: ''},*/
 ];
 
 /**
