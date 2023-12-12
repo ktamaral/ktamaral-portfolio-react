@@ -1,0 +1,18 @@
+        <ResumeSection title="Skills">
+          <p className="pb-8">Here you can show a snapshot of your skills to show off to employers</p>
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+            {skills.map((skillgroup, index) => (
+              <SkillGroup key={`${skillgroup.name}-${index}`} skillGroup={skillgroup} />
+            ))}
+          </div>
+        </ResumeSection>
+        <ResumeSection title="SkillCards">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {skillCards.map((skillCard, index) => (
+              <SkillCard
+                key={`${skillCard.title}-${index}`}
+                skillCard={skillCard}
+              />
+            ))}
+          </div>
+        </ResumeSection>
