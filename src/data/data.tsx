@@ -309,7 +309,7 @@ export const experience: TimelineItem[] = [
     content: (
       <p>
         <strong className="text-black-100">Full-Stack Software Engineering</strong> - Develop custom web applications including front-end,
-        backend, databases, authentication, version control, deployment, monitoring, security
+        backend, databases, authenticationa, version control, deployment, monitoring, security
         controls, upgrades, and support<br />
         <strong className="text-black-100">Systems Integration</strong> - Integrate systems using Web Service APIs (REST/SOAP)<br />
         <strong className="text-black-100">Systems Administration</strong> - Linux and Windows server administration<br />
