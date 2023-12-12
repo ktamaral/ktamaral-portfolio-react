@@ -269,7 +269,7 @@ export const education: TimelineItem[] = [
     title: 'Master of Science - Computer Information Systems IT Security',
     content: (
       <p>
-        • Web Application Development – core competencies in web application technologies to create dynamic web applications with relational databases, develop skills in both front- and back-end coding<br />
+        • Web Application Development – build dynamic web applications with front and backend langauges and frameworks and relational databases<br />
         • Network Security – advanced network security issues and solutions, services, access controls, vulnerabilities, threats, risks, network architectures, attacks, network security capabilities and mechanisms<br />
         • Enterprise Information Security – security in computer systems, networks, applications, memory protection, access control and authentication, file system security, backup and recovery management, intrusion and virus protection mechanisms, application level protections, cryptography<br />
         • IT Security Policies and Procedures – development and implementation of security policies, risk management plans, standards and procedures on infrastructure, systems, networks, data, operations and user access<br />
