@@ -10,7 +10,7 @@ import InstagramIcon from '../../Icon/InstagramIcon';
 import LinkedInIcon from '../../Icon/LinkedInIcon';
 import TwitterIcon from '../../Icon/TwitterIcon';
 import Section from '../../Layout/Section';
-import ContactForm from './ContactForm';
+//import ContactForm from './ContactForm';
 
 const ContactValueMap: Record<ContactType, ContactValue> = {
   [ContactType.Email]: {Icon: EnvelopeIcon, srLabel: 'Email'},
@@ -28,8 +28,7 @@ const Contact: FC = memo(() => {
   return (
     <Section className="bg-neutral-800" sectionId={SectionId.Contact}>
       <div className="flex flex-col w-full h-full items-center justify-center mx-auto">
-        <div className="flex flex-col gap-6 md:flex-row md:items-center">
-          <EnvelopeIcon className="hidden h-16 w-16 text-white md:block" />
+        <div className="flex flex-col gap-6">
           <h2 className="text-2xl font-bold text-white">{headerText}</h2>
           <dl className="flex flex-col space-y-4 text-base text-neutral-500 sm:space-y-2">
             {items.map(({type, text, href}) => {

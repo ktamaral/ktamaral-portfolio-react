@@ -368,11 +368,11 @@ export const contact: ContactSection = {
       text: 'Boston, MA, USA',
       href: 'https://www.google.com/maps/place/Boston,+MA/@42.3143203,-71.0528557,12z',
     },
-    /*{
-      type: ContactType.Instagram,
-      text: '@',
-      href: '',
-    },*/
+    {
+      type: ContactType.LinkedIn,
+      text: 'katieamaral',
+      href: 'https://www.linkedin.com/in/katieamaral/',
+    },
     {
       type: ContactType.Github,
       text: 'ktamaral',
