@@ -85,7 +85,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/AmaralKatie_Resume_2023.pdf',
+      href: '/Katie Amaral Resume 2024.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
