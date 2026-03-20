@@ -218,14 +218,14 @@ export const education: TimelineItem[] = [
     content: (
       <p>
         •{" "}
-        <a href="https://coursebrowser.dce.harvard.edu/course/introduction-to-artificial-intelligence-with-python-3/">
+        <a href="https://coursebrowser.dce.harvard.edu/course/introduction-to-artificial-intelligence-with-python-3/" target="_blank" rel="noopener noreferrer">
           {" "}
           Artificial Intelligence with Python
         </a>{" "}
         - Search algorithms, classification, optimization, machine learning,
         large langauge models, optimization Artificial Intelligence with Python
         <br />•{" "}
-        <a href="https://coursebrowser.dce.harvard.edu/course/foundations-of-data-science-and-engineering/">
+        <a href="https://coursebrowser.dce.harvard.edu/course/foundations-of-data-science-and-engineering/" target="_blank" rel="noopener noreferrer">
           {" "}
           Foundations of Data Science & Engineering
         </a>{" "}
@@ -233,13 +233,13 @@ export const education: TimelineItem[] = [
         exploratory data analysis, visualization, statistical thinking, machine
         learning, natural language processing, big data analytics platforms
         <br />•{" "}
-        <a href="https://coursebrowser.dce.harvard.edu/course/deep-learning/">
+        <a href="https://coursebrowser.dce.harvard.edu/course/deep-learning/" target="_blank" rel="noopener noreferrer">
           Deep Learning
-        </a>
+        </a>{" "}
         - Neural networks, transformers with attention, deep learning APIs with
         Keras, Tensorflow, and Pytorch
         <br />•{" "}
-        <a href="https://coursebrowser.dce.harvard.edu/course/foundations-of-large-language-models/">
+        <a href="https://coursebrowser.dce.harvard.edu/course/foundations-of-large-language-models/" target="_blank" rel="noopener noreferrer">
           Foundations of Large Language Models
         </a>{" "}
         - Transformer architectures (GPT, BERT, and T5), text generation,
@@ -284,14 +284,14 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: "April 2024 - October 2024",
+    date: "October 2024 - Present",
     location: "Harvard University",
     title: "Technical Lead",
     content: (
       <p>
         <strong className="text-black-100">Architecture Leadership</strong>{" "}-
-        Lead the architectural design and technical implementation of
-        <a href="https://collex.lib.harvard.edu">Collections Explorer</a>, a
+        Lead the architectural design and technical implementation of{" "}
+        <a href="https://collex.lib.harvard.edu" target="_blank" rel="noopener noreferrer">Collections Explorer</a>, a
         public hybrid search application for exploring Harvard Library’s vast
         digital collections through natural language interaction validation
         <br />
@@ -305,9 +305,6 @@ export const experience: TimelineItem[] = [
         Rank Evaluation API to calculate precision and recall for tuning search
         performance; evaluate embedding models with Hugging Face transformers
         and PyTorch
-        <a href="https://collex.lib.harvard.edu">Collections Explorer</a>, a
-        public hybrid search application for exploring Harvard Library’s vast
-        digital collections through natural language interaction validation
         <br />
         <strong className="text-black-100">
           Large Language Models and Model Context Protocol
@@ -333,8 +330,8 @@ export const experience: TimelineItem[] = [
         packages for code reuse; build frontend UI with NextJS, React, and a
         reusable component library in Storybook
         <br />
-        <strong className="text-black-100">Open Source</strong>{" "}- Contribute to
-        <a href="https://arxiv.org/abs/2507.00961">
+        <strong className="text-black-100">Open Source</strong>{" "} - Contribute to{" "}
+        <a href="https://arxiv.org/abs/2507.00961" target="_blank" rel="noopener noreferrer">
           Digital Collections Explorer
         </a>
         , a multimodal vector search application by University of Washington
@@ -355,7 +352,7 @@ export const experience: TimelineItem[] = [
         validation
         <br />
         <strong className="text-black-100">
-          ML Model Training and Evaluation
+        ML Model Training and Evaluation
         </strong>{" "}
         - Trained and fine-tuned Computer Vision and NER models for
         classification tasks using Python libraries such as SciKit-Learn,
@@ -387,26 +384,26 @@ export const experience: TimelineItem[] = [
         <br />
         <strong className="text-black-100">
           Full-Stack Software Development
-        </strong>
+        </strong>{" "}
         - Built backend services with Python FastAPI, Javascript NodeJS, and
         TypeScript NestJS; built SPAs in Angular
         <br />
-        <strong className="text-black-100">Artificial Intelligence</strong>
+        <strong className="text-black-100">Artificial Intelligence</strong>{" "}
         - Developed pilot project to modernize library discovery by enabling
         natural language interaction with catalog services using Python
         LangChain and GenAI models (Anthropic Claude Instant and OpenAI GPT 3.5)
         <br />
-        <strong className="text-black-100">CI/CD</strong> - Implemented unit and
-        integration tests with CI/CD pipelines, orchestrating containerized
-        deployments (Docker), Kubernetes workloads (Rancher), and secure secrets
-        management using GitHub Actions and ArgoCD on AWS
+        <strong className="text-black-100">CI/CD</strong>{" "}
+        - Implemented unit and integration tests with CI/CD pipelines,
+        orchestrating containerized deployments (Docker), Kubernetes workloads (Rancher),
+        and secure secrets management using GitHub Actions and ArgoCD on AWS
         <br />
-        <strong className="text-black-100">Database Systems</strong> - Designed
-        relational and NoSQL schemas with SQLAlchemy (PostgreSQL) and Mongoose
-        (MongoDB)
+        <strong className="text-black-100">Database Systems</strong>{" "}
+        - Designed relational and NoSQL schemas with SQLAlchemy (PostgreSQL)
+        and Mongoose (MongoDB)
         <br />
-        <strong className="text-black-100">SDLC</strong> - Work within
-        Agile/Scrum methodologies across the full software development
+        <strong className="text-black-100">SDLC</strong>{" "}
+        - Work within Agile/Scrum methodologies across the full software development
         lifecycle, contributing to iterative development, peer code review, and
         continuous delivery; Certified ScrumMaster (CSM)
         <br />
