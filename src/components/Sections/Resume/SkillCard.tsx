@@ -1,6 +1,6 @@
 import {FC, memo} from 'react';
 
-import {SkillCard} from '../../../data/dataDef';
+import type {SkillCard} from '../../../data/dataDef';
 
 const SkillCard: FC<{skillCard: SkillCard}> = memo(({skillCard}) => {
   const {title, description} = skillCard;

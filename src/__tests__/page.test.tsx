@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import { ReactNode } from 'react';
 import { render } from '@testing-library/react'
 import Page from '../components/Layout/Page';
 
