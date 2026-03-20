@@ -12,7 +12,7 @@ import {
 import GithubIcon from "../components/Icon/GithubIcon";
 //import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from "../components/Icon/LinkedInIcon";
-import StackOverflowIcon from "../components/Icon/StackOverflowIcon";
+//import StackOverflowIcon from "../components/Icon/StackOverflowIcon";
 //import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from "../images/iStock-1325876343-1920x1280.webp";
 import porfolioImage1 from "../images/portfolio/portfolio-1.jpg";
