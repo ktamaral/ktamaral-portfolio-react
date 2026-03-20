@@ -491,11 +491,11 @@ export const contact: ContactSection = {
  */
 export const socialLinks: Social[] = [
   { label: "Github", Icon: GithubIcon, href: "https://github.com/ktamaral" },
-  {
-    label: "Stack Overflow",
-    Icon: StackOverflowIcon,
-    href: "https://stackoverflow.com/users/2183592/ktamaral",
-  },
+  // {
+  //   label: "Stack Overflow",
+  //   Icon: StackOverflowIcon,
+  //   href: "https://stackoverflow.com/users/2183592/ktamaral",
+  // },
   {
     label: "LinkedIn",
     Icon: LinkedInIcon,
