@@ -212,13 +212,52 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
+    date: "In progress",
+    location: "Harvard University University",
+    title: "Graduate Certificate - Artificial Intelligence",
+    content: (
+      <p>
+        •{" "}
+        <a href="https://coursebrowser.dce.harvard.edu/course/introduction-to-artificial-intelligence-with-python-3/">
+          {" "}
+          Artificial Intelligence with Python
+        </a>{" "}
+        - Search algorithms, classification, optimization, machine learning,
+        large langauge models, optimization Artificial Intelligence with Python
+        <br />•{" "}
+        <a href="https://coursebrowser.dce.harvard.edu/course/foundations-of-data-science-and-engineering/">
+          {" "}
+          Foundations of Data Science & Engineering
+        </a>{" "}
+        - Data engineering: data management, transformation, transportation,
+        exploratory data analysis, visualization, statistical thinking, machine
+        learning, natural language processing, big data analytics platforms
+        <br />•{" "}
+        <a href="https://coursebrowser.dce.harvard.edu/course/deep-learning/">
+          Deep Learning
+        </a>
+        - Neural networks, transformers with attention, deep learning APIs with
+        Keras, Tensorflow, and Pytorch
+        <br />•{" "}
+        <a href="https://coursebrowser.dce.harvard.edu/course/foundations-of-large-language-models/">
+          Foundations of Large Language Models
+        </a>{" "}
+        - Transformer architectures (GPT, BERT, and T5), text generation,
+        language translation, sentiment analysis, chatbots, conversational
+        agents, prompt engineering, retrieval augmented generation (RAG),
+        Hugging Face transformers in Python
+        <br />
+      </p>
+    ),
+  },
+  {
     date: "Graduated 2014 | Cumulative GPA: 4.0",
     location: "Boston University",
     title: "Master of Science - Computer Information Systems IT Security",
     content: (
       <p>
-        • Web Application Development – Web application development with front
-        and backend langauges and frameworks and relational databases
+        • Software Development – Software development with front and backend
+        langauges and frameworks and relational databases
         <br />
         • Network Security – Advanced network security issues and solutions,
         services, access controls, vulnerabilities, threats, risks, network
@@ -245,45 +284,131 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: "April 2019 - Present",
+    date: "April 2024 - October 2024",
+    location: "Harvard University",
+    title: "Technical Lead",
+    content: (
+      <p>
+        <strong className="text-black-100">Architecture Leadership</strong>{" "}-
+        Lead the architectural design and technical implementation of
+        <a href="https://collex.lib.harvard.edu">Collections Explorer</a>, a
+        public hybrid search application for exploring Harvard Library’s vast
+        digital collections through natural language interaction validation
+        <br />
+        <strong className="text-black-100">Search Infrastructure</strong>{" "}-
+        Design and implement high-performance search infrastructure using
+        Elasticsearch, supporting multimodal hybrid search retrieval (KNN +
+        BM25) across ~10 million records with Cohere Multilingual v3 dense
+        vector embeddings, reducing memory utilization by 95% with BBQ
+        compression
+        <br />- Develop relevancy evaluation scripts using the Elasticsearch
+        Rank Evaluation API to calculate precision and recall for tuning search
+        performance; evaluate embedding models with Hugging Face transformers
+        and PyTorch
+        <a href="https://collex.lib.harvard.edu">Collections Explorer</a>, a
+        public hybrid search application for exploring Harvard Library’s vast
+        digital collections through natural language interaction validation
+        <br />
+        <strong className="text-black-100">
+          Large Language Models and Model Context Protocol
+        </strong>{" "}
+        - Implement retrieval augmented generation (RAG) with LLMs on AWS
+        Bedrock; Build MCP services for agentic search capabilities and query
+        augmentation with dynamic faceting
+        <br />
+        <strong className="text-black-100">Security</strong>{" "}- Conduct
+        assessments and implement controls based on OWASP standards, including
+        validation with Pydantic, input sanitization, CSPs, network controls,
+        auth (OAuth2/OIDC), vulnerability scanning, LLM guardrails, etc.
+        <br />
+        <strong className="text-black-100">Data Engineering</strong>{" "}
+        - Build Apache Airflow ETL pipelines to extract and transform data from a
+        variety of diverse data sources, performing validation, normalization,
+        chunking, and ingestion into Elasticsearch
+        <br />
+        <strong className="text-black-100">
+          Full-Stack Software Development
+        </strong>{" "}
+        - Build backend API services using Python FastAPI and internal PyPI
+        packages for code reuse; build frontend UI with NextJS, React, and a
+        reusable component library in Storybook
+        <br />
+        <strong className="text-black-100">Open Source</strong>{" "}- Contribute to
+        <a href="https://arxiv.org/abs/2507.00961">
+          Digital Collections Explorer
+        </a>
+        , a multimodal vector search application by University of Washington
+        <br />
+      </p>
+    ),
+  },
+  {
+    date: "April 2024 - October 2024",
+    location: "OnCorps, Inc",
+    title: "Senior Director, Software Engineering",
+    content: (
+      <p>
+        <strong className="text-black-100">ML Operations</strong>{" "}
+        - Built ML Operations pipelines on the Databricks platform: data
+        ingestion, data transformation, feature engineering, model training and
+        fine-tuning, model deployment, inference, monitoring, and data
+        validation
+        <br />
+        <strong className="text-black-100">
+          ML Model Training and Evaluation
+        </strong>{" "}
+        - Trained and fine-tuned Computer Vision and NER models for
+        classification tasks using Python libraries such as SciKit-Learn,
+        PyTorch, and Hugging Face transformers; Implemented statistical methods
+        for model performance evaluation, including F1 score, precision, and
+        recall
+        <br />
+        <strong className="text-black-100">Data Validation</strong>{" "}
+        - Wrote data validation classes using Python libraries such as Pandas
+        and NumPy to confirm the accuracy of financial statements in preparation
+        for clients to report to stakeholders, investors, and regulatory
+        agencies
+        <br />
+      </p>
+    ),
+  },
+  {
+    date: "April 2019 - April 2024",
     location: "Harvard University",
     title: "Senior Software Engineer",
     content: (
       <p>
-        <strong className="text-black-100">Artificial Intelligence</strong> -
-        Leverage generative AI models to modernize library discovery by enabling
-        natural language interaction with catalog services
+        <strong className="text-black-100">Artificial Intelligence</strong>{" "}
+        - Built large-scale, performant distributed systems interconnected with
+        asynchronous task queues (Celery + RabbitMQ) and streaming APIs to
+        process ~3 million individual assets per day for mission-critical
+        applications supporting ~500,000 monthly visitors worldwide for to
+        access hundreds of millions of digital multimedia assets
         <br />
-        <strong className="text-black-100">Front-End Development</strong> -
-        Design responsive, accessible, user-friendly interfaces meeting or
-        exceeding standards for library UX and accessibility
+        <strong className="text-black-100">
+          Full-Stack Software Development
+        </strong>
+        - Built backend services with Python FastAPI, Javascript NodeJS, and
+        TypeScript NestJS; built SPAs in Angular
         <br />
-        <strong className="text-black-100">Back-End Development</strong> - Build
-        large-scale, performant, and secure backend services interconnected with
-        REST APIs and message queues to support a large volume of requests for
-        mission-critical applications serving patrons around the world
+        <strong className="text-black-100">Artificial Intelligence</strong>
+        - Developed pilot project to modernize library discovery by enabling
+        natural language interaction with catalog services using Python
+        LangChain and GenAI models (Anthropic Claude Instant and OpenAI GPT 3.5)
         <br />
-        <strong className="text-black-100">CI/CD</strong> - Automate CI/CD
-        workflows, orchestrate deployments, and manage configurations
+        <strong className="text-black-100">CI/CD</strong> - Implemented unit and
+        integration tests with CI/CD pipelines, orchestrating containerized
+        deployments (Docker), Kubernetes workloads (Rancher), and secure secrets
+        management using GitHub Actions and ArgoCD on AWS
         <br />
-        <strong className="text-black-100">Security</strong> - Write all
-        software with secure coding practices such as data encryption, session
-        management, network security, input validation, parameterization, event
-        logging, access controls, and more; build and integrate authentication
-        and authorization services; scan applications and remediate security
-        vulnerabilities
+        <strong className="text-black-100">Database Systems</strong> - Designed
+        relational and NoSQL schemas with SQLAlchemy (PostgreSQL) and Mongoose
+        (MongoDB)
         <br />
-        <strong className="text-black-100">Automated Testing</strong> - Write
-        unit and integration tests with coverage analysis and integrate into
-        CI/CD pipeline
-        <br />
-        <strong className="text-black-100">Architecture Design</strong> - Create
-        diagrams and technical documentation to design complex systems based on
-        software engineering architecture principles and best practices;
-        <br />
-        collaborate with various stakeholders to collect functional
-        requirements, integrations, dependencies, and non-functional
-        requirements for performance, security, and availability
+        <strong className="text-black-100">SDLC</strong> - Work within
+        Agile/Scrum methodologies across the full software development
+        lifecycle, contributing to iterative development, peer code review, and
+        continuous delivery; Certified ScrumMaster (CSM)
         <br />
       </p>
     ),
@@ -294,35 +419,15 @@ export const experience: TimelineItem[] = [
     title: "Software Engineer",
     content: (
       <p>
-        <strong className="text-black-100">
-          Full-Stack Software Engineering
-        </strong>{" "}
-        - Designed and built custom web applications working in all levels of
-        the tech stack including front-end, backend, databases, authentication,
-        version control, deployment, monitoring, security controls, upgrades,
-        and support
+        <strong className="text-black-100">Biomedical Research Support</strong>{" "}
+        - Built a secure web portal for transferring terabyte-scale genomic
+        sequencing data with IBM Aspera APIs, applying encryption and access
+        controls to ensure compliance with NIH data policy requirements
         <br />
-        <strong className="text-black-100">Systems Integration</strong> -
-        Integrated systems with web service APIs
-        <br />
-        <strong className="text-black-100">Systems Administration</strong> -
-        Linux and Windows server administration
-        <br />
-        <strong className="text-black-100">QA Testing</strong> - Created QA test
-        plans based on requirements, wrote automated testing scripts
-        <br />
-        <strong className="text-black-100">CI/CD</strong> - Automated software
-        build and deployment workflows
-        <br />
-        <strong className="text-black-100">IT Automation</strong> - Automated IT
-        tasks with scripts and scheduled jobs
-        <br />
-        <strong className="text-black-100">IT Security</strong> - Analyzed
-        systems for security vulnerabilities, implemented controls and patches,
-        adhered to security best practices, ensured compliance with regulations
-        <br />
-        <strong className="text-black-100">ServiceNow SaaS</strong> - Developed
-        custom applications in the ServiceNow platform
+        <strong className="text-black-100">Full-Stack Development</strong>{" "}
+        - Designed and built custom web applications working on all levels of the
+        tech stack including frontend, backend, databases, authentication &
+        authorization, security, testing, and CI/CD deployment automation
         <br />
       </p>
     ),
